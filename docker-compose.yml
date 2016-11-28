@@ -9,3 +9,5 @@ services:
       - mongo
   mongo:
     image: mongo
+  redis:
+    image: redis
